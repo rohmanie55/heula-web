@@ -5,33 +5,37 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Kebijakan Privasi - Heula</title>
   <meta name="description" content="Kebijakan Privasi resmi aplikasi Heula mengenai pengumpulan dan perlindungan data pengguna.">
+  <link rel="icon" type="image/png" href="./assets/favicon.png">
   <link rel="stylesheet" href="./styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
 </head>
 <body>
+
+  <!-- Ambient Background Glows -->
+  <div class="ambient-glow glow-1"></div>
+  <div class="ambient-glow glow-2"></div>
 
   <!-- Header Navigation -->
   <header>
     <div class="nav-container">
       <a href="./index.html" class="logo-group">
-        <div class="logo-badge">
-          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
-            <path d="M11 20A7 7 0 0 1 9.8 6.1C15.5 5 17 4.4 19 2c1 2 2 4.18 2 8 0 5.5-4.78 10-10 10Z"/>
-            <path d="M2 21c0-3 1.85-5.36 5.08-6C9.5 14.52 12 13 13 12"/>
-          </svg>
-        </div>
+        <img src="./assets/icon.png" alt="Heula Logo" class="logo-img">
         <span class="logo-text">Heula</span>
       </a>
 
-      <nav class="nav-links">
-        <a href="./index.html" class="nav-link">&larr; Kembali ke Beranda</a>
+      <nav class="nav-links" style="display: flex;">
+        <a href="./index.html" class="nav-link">Beranda</a>
         <a href="./terms.html" class="nav-link">Syarat & Ketentuan</a>
       </nav>
     </div>
   </header>
 
   <!-- Content Container -->
-  <main class="legal-container">
+  <main class="legal-container fade-in-up">
     <div class="legal-header">
+      <div class="badge-tag" style="margin-bottom: 1rem;">Dokumen Resmi</div>
       <h1 class="legal-title">Kebijakan Privasi</h1>
       <div class="legal-date">Terakhir Diperbarui: 21 Juli 2026</div>
     </div>
@@ -86,7 +90,7 @@
       <p class="legal-p">
         Jika Anda memiliki pertanyaan, saran, atau permintaan terkait Kebijakan Privasi ini, silakan hubungi tim pengembang kami melalui email resmi:
         <br>
-        <strong style="color: var(--color-espresso);">rohmanie55@gmail.com</strong>
+        <strong style="color: var(--color-terracotta-dark);">rohmanie55@gmail.com</strong>
       </p>
     </div>
   </main>
@@ -94,13 +98,18 @@
   <!-- Footer -->
   <footer>
     <div class="footer-container">
-      <div style="font-size: 0.85rem; color: var(--color-sand-muted);">
-        &copy; 2026 Heula App. Hak Cipta Dilindungi Undang-Undang.
+      <div style="display: flex; align-items: center; gap: 0.75rem;">
+        <img src="./assets/icon.png" alt="Heula Logo" class="logo-img" style="width: 34px; height: 34px;">
+        <span class="logo-text" style="font-size: 1.25rem;">Heula</span>
       </div>
 
       <div class="footer-links">
         <a href="./index.html" class="footer-link">Beranda</a>
         <a href="./terms.html" class="footer-link">Syarat & Ketentuan</a>
+      </div>
+
+      <div class="footer-copy">
+        &copy; 2026 Heula App. Hak Cipta Dilindungi Undang-Undang.
       </div>
     </div>
   </footer>
